@@ -1,0 +1,1392 @@
+[
+  {
+    "name": "Classic Beef Burger",
+    "category": "burger",
+    "description": "Juicy beef patty with fresh lettuce, tomato, onion, and special sauce in a sesame seed bun",
+    "price": 8.99,
+    "image": "assets/images/burgers/1.png",
+    "isPopular": true,
+    "rating": 4.5,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Beef Patty", "Lettuce", "Tomato", "Onion", "Cheese", "Special Sauce"],
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 5,
+        "comment": "Best burger in town! Meat was perfectly cooked."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 4,
+        "comment": "Very tasty, but could use more sauce."
+      }
+    ]
+  },
+  {
+    "name": "Cheese Burger",
+    "category": "burger",
+    "description": "Beef patty topped with melted cheddar cheese, lettuce, tomato and pickles",
+    "price": 9.49,
+    "image": "assets/images/burgers/2.png",
+    "isPopular": true,
+    "rating": 4.8,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Pickles", "Burger Sauce"],
+    "reviews": [
+      {
+        "user": "Mike Johnson",
+        "rating": 5,
+        "comment": "Perfect amount of cheese!"
+      },
+      {
+        "user": "Sarah Williams",
+        "rating": 5,
+        "comment": "Absolutely delicious!"
+      },
+      {
+        "user": "David Brown",
+        "rating": 4,
+        "comment": "Great taste, but could be bigger"
+      }
+    ]
+  },
+  {
+    "name": "Chicken Burger",
+    "category": "burger",
+    "description": "Crispy fried chicken breast with lettuce, mayo, and special seasoning",
+    "price": 7.99,
+    "image": "assets/images/burgers/3.png",
+    "isPopular": false,
+    "rating": 4.4,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Chicken Breast", "Lettuce", "Mayonnaise", "Special Seasoning", "Burger Bun"],
+    "reviews": [
+      {
+        "user": "Robert Taylor",
+        "rating": 4,
+        "comment": "Crispy and tasty!"
+      }
+    ]
+  },
+  {
+    "name": "Spicy Burger",
+    "category": "burger",
+    "description": "Hot and spicy beef burger with jalapeños and spicy sauce",
+    "price": 9.29,
+    "image": "assets/images/burgers/4.png",
+    "isPopular": false,
+    "rating": 4.2,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Beef Patty", "Jalapeños", "Spicy Sauce", "Lettuce", "Onion", "Cheese"],
+    "reviews": [
+      {
+        "user": "Alex Chen",
+        "rating": 5,
+        "comment": "Perfect for spice lovers!"
+      },
+      {
+        "user": "Lisa Wong",
+        "rating": 3,
+        "comment": "Too spicy for me"
+      }
+    ]
+  },
+  {
+    "name": "Double Beef Burger",
+    "category": "burger",
+    "description": "Two juicy beef patties with double cheese, bacon, and special sauce",
+    "price": 11.99,
+    "image": "assets/images/burgers/5.png",
+    "isPopular": true,
+    "rating": 4.9,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Double Beef Patties", "Double Cheese", "Bacon", "Lettuce", "Tomato", "Special Sauce"],
+    "reviews": [
+      {
+        "user": "Mark Davis",
+        "rating": 5,
+        "comment": "Huge and delicious!"
+      },
+      {
+        "user": "Emily White",
+        "rating": 5,
+        "comment": "Best double burger ever!"
+      },
+      {
+        "user": "Tom Wilson",
+        "rating": 4,
+        "comment": "A bit too greasy but tasty"
+      }
+    ]
+  },
+  {
+    "name": "BBQ Burger",
+    "category": "burger",
+    "description": "Grilled beef patty with smoky BBQ sauce, onion rings, and cheddar cheese",
+    "price": 10.49,
+    "image": "assets/images/burgers/6.png",
+    "isPopular": false,
+    "rating": 4.5,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Beef Patty", "BBQ Sauce", "Onion Rings", "Cheddar Cheese", "Lettuce"],
+    "reviews": [
+      {
+        "user": "Chris Lee",
+        "rating": 4,
+        "comment": "Great BBQ flavor!"
+      }
+    ]
+  },
+  {
+    "name": "Veggie Burger",
+    "category": "burger",
+    "description": "Healthy vegetarian patty made with beans, corn, and vegetables",
+    "price": 7.49,
+    "image": "assets/images/burgers/7.png",
+    "isPopular": false,
+    "rating": 4.1,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Vegetarian Patty", "Lettuce", "Tomato", "Avocado", "Special Dressing"],
+    "reviews": [
+      {
+        "user": "Sophia Green",
+        "rating": 4,
+        "comment": "Good option for vegetarians"
+      }
+    ]
+  },
+  {
+    "name": "Bacon Burger",
+    "category": "burger",
+    "description": "Classic burger topped with crispy bacon strips and special sauce",
+    "price": 11.29,
+    "image": "assets/images/burgers/8.png",
+    "isPopular": false,
+    "rating": 4.7,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Beef Patty", "Bacon Strips", "Cheese", "Lettuce", "Tomato", "Special Sauce"],
+    "reviews": [
+      {
+        "user": "James Miller",
+        "rating": 5,
+        "comment": "Bacon makes everything better!"
+      },
+      {
+        "user": "Olivia Taylor",
+        "rating": 4,
+        "comment": "Delicious but expensive"
+      }
+    ]
+  },
+  {
+    "name": "Mushroom Burger",
+    "category": "burger",
+    "description": "Beef patty topped with sautéed mushrooms and Swiss cheese",
+    "price": 9.89,
+    "image": "assets/images/burgers/9.png",
+    "isPopular": false,
+    "rating": 4.3,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Beef Patty", "Sautéed Mushrooms", "Swiss Cheese", "Lettuce", "Special Sauce"],
+    "reviews": [
+      {
+        "user": "Daniel Clark",
+        "rating": 4,
+        "comment": "Mushrooms were excellent!"
+      }
+    ]
+  },
+  {
+    "name": "Mini Burger",
+    "category": "burger",
+    "description": "Small burger perfect for snacks or kids meals",
+    "price": 5.99,
+    "originalPrice":5.99,
+    "discountPercent":15,
+    "isSpecialOffer":true,
+    "image": "assets/images/burgers/10.png",
+    "isPopular": false,
+    "rating": 4.0,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Beef Patty", "Mini Bun", "Lettuce", "Ketchup"],
+    "reviews": [
+      {
+        "user": "Emma Wilson",
+        "rating": 4,
+        "comment": "Perfect size for my child"
+      }
+    ]
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "category": "pizza",
+    "description": "Classic pizza loaded with pepperoni slices and mozzarella cheese",
+    "price": 12.99,
+    "image": "assets/images/pizzas/1.png",
+    "isPopular": true,
+    "rating": 4.7,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Pepperoni", "Mozzarella Cheese", "Pizza Sauce", "Pizza Dough"],
+    "reviews": [
+      {
+        "user": "Michael Brown",
+        "rating": 5,
+        "comment": "Best pepperoni pizza!"
+      },
+      {
+        "user": "Jennifer Lee",
+        "rating": 4,
+        "comment": "Great flavor, could use more pepperoni"
+      },
+      {
+        "user": "Kevin Martin",
+        "rating": 5,
+        "comment": "Always my favorite"
+      }
+    ]
+  },
+  {
+    "name": "Margherita Pizza",
+    "category": "pizza",
+    "description": "Simple and delicious pizza with fresh tomatoes, mozzarella and basil",
+    "price": 10.99,
+    "image": "assets/images/pizzas/2.png",
+    "isPopular": true,
+    "rating": 4.5,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Fresh Tomatoes", "Mozzarella", "Basil", "Olive Oil"],
+    "reviews": [
+      {
+        "user": "Maria Garcia",
+        "rating": 5,
+        "comment": "Simple and perfect!"
+      },
+      {
+        "user": "Carlos Rodriguez",
+        "rating": 4,
+        "comment": "Authentic Italian taste"
+      }
+    ]
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "category": "pizza",
+    "description": "Grilled chicken pieces with BBQ sauce and red onions",
+    "price": 13.49,
+    "image": "assets/images/pizzas/3.png",
+    "isPopular": false,
+    "rating": 4.6,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Grilled Chicken", "BBQ Sauce", "Red Onions", "Mozzarella"],
+    "reviews": [
+      {
+        "user": "Thomas Anderson",
+        "rating": 5,
+        "comment": "Love the BBQ flavor!"
+      },
+      {
+        "user": "Patricia Moore",
+        "rating": 4,
+        "comment": "Delicious combination"
+      }
+    ]
+  },
+  {
+    "name": "Cheese Pizza",
+    "category": "pizza",
+    "description": "Extra cheesy pizza with triple cheese blend",
+    "price": 9.99,
+    "image": "assets/images/pizzas/4.png",
+    "isPopular": false,
+    "rating": 4.4,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Mozzarella", "Cheddar", "Parmesan", "Pizza Sauce"],
+    "reviews": [
+      {
+        "user": "Susan Hall",
+        "rating": 4,
+        "comment": "Very cheesy and delicious!"
+      }
+    ]
+  },
+  {
+    "name": "Veggie Pizza",
+    "category": "pizza",
+    "description": "Loaded with fresh vegetables and mozzarella cheese",
+    "price": 11.49,
+    "image": "assets/images/pizzas/5.png",
+    "isPopular": false,
+    "rating": 4.2,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Bell Peppers", "Mushrooms", "Onions", "Olives", "Tomatoes"],
+    "reviews": [
+      {
+        "user": "Karen Scott",
+        "rating": 4,
+        "comment": "Fresh and healthy!"
+      },
+      {
+        "user": "Richard King",
+        "rating": 4,
+        "comment": "Good vegetarian option"
+      }
+    ]
+  },
+  {
+    "name": "Meat Lover Pizza",
+    "category": "pizza",
+    "description": "Loaded with pepperoni, sausage, ham, and bacon",
+    "price": 14.99,
+    "image": "assets/images/pizzas/6.png",
+    "isPopular": true,
+    "rating": 4.8,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Pepperoni", "Sausage", "Ham", "Bacon", "Ground Beef"],
+    "reviews": [
+      {
+        "user": "Steven Walker",
+        "rating": 5,
+        "comment": "Meat heaven!"
+      },
+      {
+        "user": "Lisa Allen",
+        "rating": 5,
+        "comment": "Perfect for meat lovers!"
+      },
+      {
+        "user": "Paul Young",
+        "rating": 4,
+        "comment": "A bit too greasy but tasty"
+      }
+    ]
+  },
+  {
+    "name": "Seafood Pizza",
+    "category": "pizza",
+    "description": "Shrimp, tuna, and calamari with special seafood sauce",
+    "price": 15.49,
+    "image": "assets/images/pizzas/7.png",
+    "isPopular": false,
+    "rating": 4.1,
+    "totalReviews": 1,
+    "available": false,
+    "ingredients": ["Shrimp", "Tuna", "Calamari", "Special Seafood Sauce"],
+    "reviews": [
+      {
+        "user": "Jason Hill",
+        "rating": 4,
+        "comment": "Unique seafood flavor"
+      }
+    ]
+  },
+  {
+    "name": "Spicy Pizza",
+    "category": "pizza",
+    "description": "Extra spicy pizza with jalapeños and spicy sausage",
+    "price": 12.29,
+    "image": "assets/images/pizzas/8.png",
+    "isPopular": false,
+    "rating": 4.0,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Jalapeños", "Spicy Sausage", "Hot Sauce", "Mozzarella"],
+    "reviews": [
+      {
+        "user": "Andrew Wright",
+        "rating": 4,
+        "comment": "Very spicy but good!"
+      }
+    ]
+  },
+  {
+    "name": "Mushroom Pizza",
+    "category": "pizza",
+    "description": "Loaded with various mushrooms and garlic sauce",
+    "price": 11.99,
+    "image": "assets/images/pizzas/9.png",
+    "isPopular": false,
+    "rating": 4.3,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Button Mushrooms", "Portobello Mushrooms", "Garlic Sauce", "Mozzarella"],
+    "reviews": [
+      {
+        "user": "Rebecca Lopez",
+        "rating": 4,
+        "comment": "Mushroom lover's dream!"
+      }
+    ]
+  },
+  {
+    "name": "Four Cheese Pizza",
+    "category": "pizza",
+    "description": "Four cheese blend with creamy white sauce",
+    "price": 13.29,
+    "originalPrice":13.29,
+    "discountPercent":20,
+    "isSpecialOffer":true,
+    "image": "assets/images/pizzas/10.png",
+    "isPopular": false,
+    "rating": 4.6,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Mozzarella", "Gorgonzola", "Parmesan", "Fontina", "White Sauce"],
+    "reviews": [
+      {
+        "user": "Edward Harris",
+        "rating": 5,
+        "comment": "Cheese perfection!"
+      },
+      {
+        "user": "Amanda Clark",
+        "rating": 4,
+        "comment": "Very rich and creamy"
+      }
+    ]
+  },
+  {
+    "name": "Chocolate Cake",
+    "category": "cake",
+    "description": "Rich and moist chocolate cake with chocolate frosting",
+    "price": 6.99,
+    "originalPrice": 8.99,
+    "discountPercent": 22,
+    "image": "assets/images/cakes/1.png",
+    "isPopular": true,
+    "isSpecialOffer": true,
+    "rating": 4.9,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Flour", "Cocoa Powder", "Sugar", "Butter", "Eggs", "Chocolate Frosting"],
+    "reviews": [
+      {
+        "user": "Jessica Martinez",
+        "rating": 5,
+        "comment": "Best chocolate cake ever!"
+      },
+      {
+        "user": "Brian Lewis",
+        "rating": 5,
+        "comment": "So moist and delicious!"
+      },
+      {
+        "user": "Michelle Lee",
+        "rating": 4,
+        "comment": "Very rich chocolate flavor"
+      }
+    ]
+  },
+  {
+    "name": "Vanilla Cake",
+    "category": "cake",
+    "description": "Classic vanilla cake with vanilla buttercream frosting",
+    "price": 6.49,
+    "image": "assets/images/cakes/2.png",
+    "isPopular": false,
+    "rating": 4.5,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Flour", "Sugar", "Butter", "Eggs", "Vanilla Extract", "Vanilla Frosting"],
+    "reviews": [
+      {
+        "user": "Nancy Walker",
+        "rating": 5,
+        "comment": "Perfect vanilla cake!"
+      },
+      {
+        "user": "Daniel Young",
+        "rating": 4,
+        "comment": "Simple and delicious"
+      }
+    ]
+  },
+  {
+    "name": "Red Velvet Cake",
+    "category": "cake",
+    "description": "Smooth red velvet cake with cream cheese frosting",
+    "price": 7.99,
+    "originalPrice": 9.99,
+    "discountPercent": 20,
+    "image": "assets/images/cakes/3.png",
+    "isPopular": true,
+    "isSpecialOffer": true,
+    "rating": 4.7,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Flour", "Cocoa Powder", "Red Food Color", "Butter", "Cream Cheese Frosting"],
+    "reviews": [
+      {
+        "user": "Sarah Allen",
+        "rating": 5,
+        "comment": "Perfect cream cheese frosting!"
+      },
+      {
+        "user": "Kevin King",
+        "rating": 5,
+        "comment": "My favorite cake!"
+      },
+      {
+        "user": "Laura Scott",
+        "rating": 4,
+        "comment": "Beautiful and tasty"
+      }
+    ]
+  },
+  {
+    "name": "Fruit Cake",
+    "category": "cake",
+    "description": "Light cake topped with fresh seasonal fruits",
+    "price": 7.29,
+    "image": "assets/images/cakes/4.png",
+    "isPopular": false,
+    "rating": 4.4,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Flour", "Sugar", "Fresh Fruits", "Whipped Cream", "Vanilla"],
+    "reviews": [
+      {
+        "user": "Susan Harris",
+        "rating": 4,
+        "comment": "Fresh and fruity!"
+      }
+    ]
+  },
+  {
+    "name": "Cheese Cake",
+    "category": "cake",
+    "description": "Creamy New York style cheesecake with graham cracker crust",
+    "price": 8.49,
+    "image": "assets/images/cakes/5.png",
+    "isPopular": true,
+    "rating": 4.8,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Cream Cheese", "Graham Cracker Crust", "Sugar", "Eggs", "Sour Cream"],
+    "reviews": [
+      {
+        "user": "Robert White",
+        "rating": 5,
+        "comment": "Creamy perfection!"
+      },
+      {
+        "user": "Patricia Martin",
+        "rating": 4,
+        "comment": "Best cheesecake in town"
+      }
+    ]
+  },
+  {
+    "name": "Black Forest Cake",
+    "category": "cake",
+    "description": "Chocolate cake with cherry filling and whipped cream",
+    "price": 8.99,
+    "image": "assets/images/cakes/6.png",
+    "isPopular": false,
+    "rating": 4.6,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Chocolate Cake", "Cherry Filling", "Whipped Cream", "Chocolate Shavings"],
+    "reviews": [
+      {
+        "user": "Mark Thompson",
+        "rating": 4,
+        "comment": "Classic and delicious"
+      }
+    ]
+  },
+  {
+    "name": "Carrot Cake",
+    "category": "cake",
+    "description": "Moist carrot cake with walnuts and cream cheese frosting",
+    "price": 6.99,
+    "image": "assets/images/cakes/7.png",
+    "isPopular": false,
+    "rating": 4.3,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Carrots", "Walnuts", "Cinnamon", "Cream Cheese Frosting", "Raisins"],
+    "reviews": [
+      {
+        "user": "Jennifer Davis",
+        "rating": 4,
+        "comment": "Healthy and tasty!"
+      }
+    ]
+  },
+  {
+    "name": "Coffee Cake",
+    "category": "cake",
+    "description": "Coffee flavored cake with coffee buttercream",
+    "price": 7.49,
+    "image": "assets/images/cakes/8.png",
+    "isPopular": false,
+    "rating": 4.2,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Flour", "Coffee", "Coffee Liqueur", "Buttercream", "Sugar"],
+    "reviews": [
+      {
+        "user": "David Miller",
+        "rating": 4,
+        "comment": "Perfect coffee flavor!"
+      }
+    ]
+  },
+  {
+    "name": "Strawberry Cake",
+    "category": "cake",
+    "description": "Fresh strawberry cake with strawberry frosting",
+    "price": 7.99,
+    "image": "assets/images/cakes/9.png",
+    "isPopular": false,
+    "rating": 4.6,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Fresh Strawberries", "Strawberry Puree", "Vanilla Cake", "Strawberry Frosting"],
+    "reviews": [
+      {
+        "user": "Amanda Wilson",
+        "rating": 5,
+        "comment": "Fresh strawberry taste!"
+      },
+      {
+        "user": "Christopher Moore",
+        "rating": 4,
+        "comment": "Light and fruity"
+      }
+    ]
+  },
+  {
+    "name": "Lemon Cake",
+    "category": "cake",
+    "description": "Tangy lemon cake with lemon glaze",
+    "price": 6.79,
+    "originalPrice":6.79,
+    "discountPercent":15,
+    "isSpecialOffer":true,
+    "image": "assets/images/cakes/10.png",
+    "isPopular": false,
+    "rating": 4.1,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Lemon Zest", "Lemon Juice", "Flour", "Sugar", "Lemon Glaze"],
+    "reviews": [
+      {
+        "user": "Lisa Garcia",
+        "rating": 4,
+        "comment": "Perfectly tangy!"
+      }
+    ]
+  },
+  {
+    "name": "Vanilla Ice Cream",
+    "category": "icecream",
+    "description": "Classic creamy vanilla ice cream made with real vanilla beans",
+    "price": 3.99,
+    "image": "assets/images/icecream/1.png",
+    "isPopular": true,
+    "rating": 4.5,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Milk", "Cream", "Sugar", "Vanilla Beans", "Egg Yolks"],
+    "reviews": [
+      {
+        "user": "Michael Brown",
+        "rating": 4,
+        "comment": "Classic and delicious!"
+      },
+      {
+        "user": "Sarah Johnson",
+        "rating": 5,
+        "comment": "Perfect vanilla flavor!"
+      }
+    ]
+  },
+  {
+    "name": "Chocolate Ice Cream",
+    "category": "icecream",
+    "description": "Rich chocolate ice cream made with premium cocoa",
+    "price": 4.29,
+    "image": "assets/images/icecream/2.png",
+    "isPopular": true,
+    "rating": 4.7,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Milk", "Cream", "Cocoa Powder", "Sugar", "Chocolate Chunks"],
+    "reviews": [
+      {
+        "user": "David Wilson",
+        "rating": 5,
+        "comment": "Rich and chocolatey!"
+      },
+      {
+        "user": "Emily Clark",
+        "rating": 5,
+        "comment": "Best chocolate ice cream!"
+      },
+      {
+        "user": "James Taylor",
+        "rating": 4,
+        "comment": "Very creamy and rich"
+      }
+    ]
+  },
+  {
+    "name": "Strawberry Ice Cream",
+    "category": "icecream",
+    "description": "Fresh strawberry ice cream with real strawberry pieces",
+    "price": 4.19,
+    "image": "assets/images/icecream/3.png",
+    "isPopular": false,
+    "rating": 4.4,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Milk", "Cream", "Fresh Strawberries", "Sugar", "Natural Flavor"],
+    "reviews": [
+      {
+        "user": "Olivia Martinez",
+        "rating": 4,
+        "comment": "Fresh strawberry taste!"
+      }
+    ]
+  },
+  {
+    "name": "Mango Ice Cream",
+    "category": "icecream",
+    "description": "Tropical mango flavored ice cream",
+    "price": 4.59,
+    "image": "assets/images/icecream/4.png",
+    "isPopular": false,
+    "rating": 4.6,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Milk", "Cream", "Mango Puree", "Sugar", "Natural Flavor"],
+    "reviews": [
+      {
+        "user": "Daniel Lee",
+        "rating": 5,
+        "comment": "Tropical paradise!"
+      },
+      {
+        "user": "Sophia Chen",
+        "rating": 4,
+        "comment": "Refreshing mango flavor"
+      }
+    ]
+  },
+  {
+    "name": "Cookies & Cream",
+    "category": "icecream",
+    "description": "Vanilla ice cream with crushed chocolate cookies",
+    "price": 4.99,
+    "image": "assets/images/icecream/5.png",
+    "isPopular": true,
+    "rating": 4.8,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Vanilla Ice Cream", "Chocolate Cookies", "Cream", "Sugar"],
+    "reviews": [
+      {
+        "user": "William Davis",
+        "rating": 5,
+        "comment": "Perfect cookie to ice cream ratio!"
+      },
+      {
+        "user": "Emma Wilson",
+        "rating": 5,
+        "comment": "My favorite flavor!"
+      }
+    ]
+  },
+  {
+    "name": "Pistachio Ice Cream",
+    "category": "icecream",
+    "description": "Nutty pistachio ice cream with real pistachio pieces",
+    "price": 5.29,
+    "image": "assets/images/icecream/6.png",
+    "isPopular": false,
+    "rating": 4.3,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Milk", "Cream", "Pistachios", "Sugar", "Natural Flavor"],
+    "reviews": [
+      {
+        "user": "Alexander Moore",
+        "rating": 4,
+        "comment": "Unique and tasty!"
+      }
+    ]
+  },
+  {
+    "name": "Chocolate Chip",
+    "category": "icecream",
+    "description": "Vanilla ice cream with chocolate chips",
+    "price": 4.89,
+    "image": "assets/images/icecream/7.png",
+    "isPopular": false,
+    "rating": 4.4,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Vanilla Ice Cream", "Chocolate Chips", "Milk", "Cream"],
+    "reviews": [
+      {
+        "user": "Benjamin Taylor",
+        "rating": 4,
+        "comment": "Classic and always good!"
+      }
+    ]
+  },
+  {
+    "name": "Caramel Ice Cream",
+    "category": "icecream",
+    "description": "Sweet caramel ice cream with caramel swirl",
+    "price": 4.69,
+    "image": "assets/images/icecream/8.png",
+    "isPopular": false,
+    "rating": 4.2,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Milk", "Cream", "Caramel Sauce", "Sugar", "Natural Flavor"],
+    "reviews": [
+      {
+        "user": "Mia Anderson",
+        "rating": 4,
+        "comment": "Sweet and creamy!"
+      }
+    ]
+  },
+  {
+    "name": "Mint Ice Cream",
+    "category": "icecream",
+    "description": "Cool mint ice cream with chocolate chips",
+    "price": 4.49,
+    "image": "assets/images/icecream/9.png",
+    "isPopular": false,
+    "rating": 4.1,
+    "totalReviews": 1,
+    "available": false,
+    "ingredients": ["Milk", "Cream", "Mint Extract", "Chocolate Chips", "Sugar"],
+    "reviews": [
+      {
+        "user": "Ethan Harris",
+        "rating": 4,
+        "comment": "Refreshing mint flavor!"
+      }
+    ]
+  },
+  {
+    "name": "Banana Ice Cream",
+    "category": "icecream",
+    "description": "Creamy banana flavored ice cream",
+    "price": 3.99,
+    "originalPrice":3.99,
+    "discountPercent":10,
+    "isSpecialOffer":true,
+    "image": "assets/images/icecream/10.png",
+    "isPopular": false,
+    "rating": 4.0,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Milk", "Cream", "Banana Puree", "Sugar", "Natural Flavor"],
+    "reviews": [
+      {
+        "user": "Chloe Martin",
+        "rating": 4,
+        "comment": "Smooth banana taste!"
+      }
+    ]
+  },
+  {
+    "name": "Cola",
+    "category": "softdrink",
+    "description": "Classic cola drink, chilled to perfection",
+    "price": 1.99,
+    "image": "assets/images/drinks/1.png",
+    "isPopular": true,
+    "rating": 4.3,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Carbonated Water", "Sugar", "Caramel Color", "Natural Flavors", "Caffeine"],
+    "reviews": [
+      {
+        "user": "Matthew Jones",
+        "rating": 4,
+        "comment": "Classic and refreshing!"
+      },
+      {
+        "user": "Ava Thomas",
+        "rating": 4,
+        "comment": "Perfect with any meal"
+      }
+    ]
+  },
+  {
+    "name": "Orange Soda",
+    "category": "softdrink",
+    "description": "Bubbly orange flavored soda",
+    "price": 1.89,
+    "image": "assets/images/drinks/2.png",
+    "isPopular": false,
+    "rating": 4.2,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Carbonated Water", "Orange Juice", "Sugar", "Natural Orange Flavor"],
+    "reviews": [
+      {
+        "user": "Noah White",
+        "rating": 4,
+        "comment": "Fresh orange taste!"
+      }
+    ]
+  },
+  {
+    "name": "Lemon Soda",
+    "category": "softdrink",
+    "description": "Refreshing lemon flavored carbonated drink",
+    "price": 1.79,
+    "image": "assets/images/drinks/3.png",
+    "isPopular": false,
+    "rating": 4.1,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Carbonated Water", "Lemon Juice", "Sugar", "Natural Lemon Flavor"],
+    "reviews": [
+      {
+        "user": "Isabella Moore",
+        "rating": 4,
+        "comment": "Tangy and refreshing!"
+      }
+    ]
+  },
+  {
+    "name": "Energy Drink",
+    "category": "softdrink",
+    "description": "Energy boosting drink with vitamins",
+    "price": 2.49,
+    "image": "assets/images/drinks/4.png",
+    "isPopular": false,
+    "rating": 4.0,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Carbonated Water", "Caffeine", "B-Vitamins", "Taurine", "Sugar"],
+    "reviews": [
+      {
+        "user": "Jackson Brown",
+        "rating": 4,
+        "comment": "Good energy boost!"
+      }
+    ]
+  },
+  {
+    "name": "Iced Tea",
+    "category": "softdrink",
+    "description": "Cold brewed tea with lemon flavor",
+    "price": 1.99,
+    "image": "assets/images/drinks/5.png",
+    "isPopular": false,
+    "rating": 4.4,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Brewed Tea", "Lemon Juice", "Sugar", "Natural Flavors"],
+    "reviews": [
+      {
+        "user": "Sophia Garcia",
+        "rating": 5,
+        "comment": "Refreshing iced tea!"
+      },
+      {
+        "user": "Lucas Rodriguez",
+        "rating": 4,
+        "comment": "Perfectly sweetened"
+      }
+    ]
+  },
+  {
+    "name": "Apple Juice",
+    "category": "softdrink",
+    "description": "100% pure apple juice, no added sugar",
+    "price": 2.19,
+    "image": "assets/images/drinks/6.png",
+    "isPopular": true,
+    "rating": 4.6,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["100% Apple Juice", "Vitamin C", "No Added Sugar"],
+    "reviews": [
+      {
+        "user": "Evelyn Lewis",
+        "rating": 5,
+        "comment": "Fresh and natural!"
+      },
+      {
+        "user": "Henry Walker",
+        "rating": 4,
+        "comment": "Pure apple taste"
+      }
+    ]
+  },
+  {
+    "name": "Mango Juice",
+    "category": "softdrink",
+    "description": "Sweet mango juice made from real mangoes",
+    "price": 2.29,
+    "image": "assets/images/drinks/7.png",
+    "isPopular": false,
+    "rating": 4.7,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Mango Puree", "Water", "Sugar", "Vitamin C"],
+    "reviews": [
+      {
+        "user": "Harper Hall",
+        "rating": 5,
+        "comment": "Sweet mango delight!"
+      },
+      {
+        "user": "Sebastian Young",
+        "rating": 4,
+        "comment": "Tropical and delicious"
+      }
+    ]
+  },
+  {
+    "name": "Pineapple Juice",
+    "category": "softdrink",
+    "description": "Tropical pineapple juice",
+    "price": 2.39,
+    "image": "assets/images/drinks/8.png",
+    "isPopular": false,
+    "rating": 4.3,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Pineapple Juice", "Water", "Sugar", "Natural Flavor"],
+    "reviews": [
+      {
+        "user": "Grace King",
+        "rating": 4,
+        "comment": "Tropical paradise in a glass!"
+      }
+    ]
+  },
+  {
+    "name": "Strawberry Drink",
+    "category": "softdrink",
+    "description": "Strawberry flavored refreshing drink",
+    "price": 2.09,
+    "image": "assets/images/drinks/9.png",
+    "isPopular": false,
+    "rating": 4.2,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Water", "Strawberry Puree", "Sugar", "Natural Strawberry Flavor"],
+    "reviews": [
+      {
+        "user": "Jack Scott",
+        "rating": 4,
+        "comment": "Sweet strawberry flavor!"
+      }
+    ]
+  },
+  {
+    "name": "Water Bottle",
+    "category": "softdrink",
+    "description": "Pure mineral water",
+    "price": 0.99,
+    "originalPrice":0.29,
+    "discountPercent":5,
+    "isSpecialOffer":true,
+    "image": "assets/images/drinks/10.png",
+    "isPopular": false,
+    "rating": 4.0,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Mineral Water"],
+    "reviews": [
+      {
+        "user": "Lily Allen",
+        "rating": 4,
+        "comment": "Essential and pure!"
+      }
+    ]
+  },
+  {
+    "name": "Classic Beef Burrito",
+    "category": "burrito",
+    "description": "Large flour tortilla stuffed with seasoned ground beef, rice, beans, and cheese",
+    "price": 9.99,
+    "image": "assets/images/burritos/1.png",
+    "isPopular": true,
+    "rating": 4.7,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Flour Tortilla", "Seasoned Ground Beef", "Spanish Rice", "Refried Beans", "Cheddar Cheese", "Lettuce", "Sour Cream"],
+    "reviews": [
+      {
+        "user": "Carlos Rodriguez",
+        "rating": 5,
+        "comment": "Authentic Mexican taste! Perfectly seasoned beef."
+      },
+      {
+        "user": "Maria Garcia",
+        "rating": 4,
+        "comment": "Big portion, very filling!"
+      },
+      {
+        "user": "John Davis",
+        "rating": 5,
+        "comment": "Best burrito I've had in town!"
+      }
+    ]
+  },
+  {
+    "name": "Chicken Burrito",
+    "category": "burrito",
+    "description": "Grilled chicken with cilantro-lime rice, black beans, and fresh salsa",
+    "price": 9.49,
+    "originalPrice": 10.99,
+    "discountPercent": 14,
+    "image": "assets/images/burritos/2.png",
+    "isPopular": true,
+    "isSpecialOffer": true,
+    "rating": 4.8,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Grilled Chicken", "Cilantro-Lime Rice", "Black Beans", "Pico de Gallo", "Monterey Jack Cheese", "Guacamole"],
+    "reviews": [
+      {
+        "user": "Sarah Wilson",
+        "rating": 5,
+        "comment": "Chicken is perfectly grilled and juicy!"
+      },
+      {
+        "user": "Mike Thompson",
+        "rating": 5,
+        "comment": "The cilantro-lime rice makes this amazing!"
+      },
+      {
+        "user": "Lisa Chen",
+        "rating": 4,
+        "comment": "Great flavor, could use a bit more chicken"
+      }
+    ]
+  },
+  {
+    "name": "Vegetarian Burrito",
+    "category": "burrito",
+    "description": "Healthy vegetarian option with grilled vegetables, beans, and rice",
+    "price": 8.99,
+    "image": "assets/images/burritos/3.png",
+    "isPopular": false,
+    "rating": 4.5,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Grilled Bell Peppers", "Zucchini", "Onions", "Black Beans", "Brown Rice", "Corn Salsa", "Avocado"],
+    "reviews": [
+      {
+        "user": "Emma Green",
+        "rating": 5,
+        "comment": "Delicious even for non-vegetarians!"
+      },
+      {
+        "user": "David Miller",
+        "rating": 4,
+        "comment": "Fresh vegetables, very healthy option"
+      }
+    ]
+  },
+  {
+    "name": "Carnitas Burrito",
+    "category": "burrito",
+    "description": "Slow-cooked pulled pork with traditional Mexican seasonings",
+    "price": 10.99,
+    "image": "assets/images/burritos/4.png",
+    "isPopular": true,
+    "rating": 4.9,
+    "totalReviews": 4,
+    "available": true,
+    "ingredients": ["Slow-cooked Pork Carnitas", "Spanish Rice", "Pinto Beans", "Onions", "Cilantro", "Salsa Verde"],
+    "reviews": [
+      {
+        "user": "Robert Martinez",
+        "rating": 5,
+        "comment": "The pork is so tender and flavorful!"
+      },
+      {
+        "user": "Jennifer Lopez",
+        "rating": 5,
+        "comment": "Authentic carnitas taste!"
+      },
+      {
+        "user": "Thomas White",
+        "rating": 5,
+        "comment": "Best pork burrito ever!"
+      },
+      {
+        "user": "Patricia Clark",
+        "rating": 4,
+        "comment": "A bit greasy but delicious"
+      }
+    ]
+  },
+  {
+    "name": "Breakfast Burrito",
+    "category": "burrito",
+    "description": "Perfect morning meal with eggs, potatoes, and choice of meat",
+    "price": 7.99,
+    "image": "assets/images/burritos/5.png",
+    "isPopular": false,
+    "rating": 4.6,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Scrambled Eggs", "Potatoes", "Bacon", "Cheddar Cheese", "Sausage", "Salsa"],
+    "reviews": [
+      {
+        "user": "Chris Evans",
+        "rating": 5,
+        "comment": "Perfect breakfast on the go!"
+      },
+      {
+        "user": "Amanda Scott",
+        "rating": 4,
+        "comment": "Great way to start the day"
+      }
+    ]
+  },
+  {
+    "name": "Shrimp Burrito",
+    "category": "burrito",
+    "description": "Grilled shrimp with avocado crema and fresh vegetables",
+    "price": 12.99,
+    "image": "assets/images/burritos/6.png",
+    "isPopular": false,
+    "rating": 4.4,
+    "totalReviews": 1,
+    "available": false,
+    "ingredients": ["Grilled Shrimp", "Avocado Crema", "Cabbage Slaw", "Mango Salsa", "Cilantro Rice"],
+    "reviews": [
+      {
+        "user": "Michael Brown",
+        "rating": 4,
+        "comment": "Unique seafood burrito, shrimp was fresh!"
+      }
+    ]
+  },
+  {
+    "name": "California Burrito",
+    "category": "burrito",
+    "description": "California style with carne asada, french fries, and guacamole",
+    "price": 11.49,
+    "image": "assets/images/burritos/7.png",
+    "isPopular": true,
+    "rating": 4.7,
+    "totalReviews": 3,
+    "available": true,
+    "ingredients": ["Carne Asada", "French Fries", "Guacamole", "Sour Cream", "Cheese", "Pico de Gallo"],
+    "reviews": [
+      {
+        "user": "Alex Johnson",
+        "rating": 5,
+        "comment": "French fries in a burrito is genius!"
+      },
+      {
+        "user": "Samantha Lee",
+        "rating": 5,
+        "comment": "California classic done right!"
+      },
+      {
+        "user": "Kevin Wilson",
+        "rating": 4,
+        "comment": "Huge portion, very filling"
+      }
+    ]
+  },
+  {
+    "name": "Bean and Cheese Burrito",
+    "category": "burrito",
+    "description": "Simple and delicious with refried beans and melted cheese",
+    "price": 6.99,
+    "originalPrice": 7.99,
+    "discountPercent": 13,
+    "image": "assets/images/burritos/8.png",
+    "isPopular": false,
+    "isSpecialOffer": true,
+    "rating": 4.2,
+    "totalReviews": 1,
+    "available": true,
+    "ingredients": ["Refried Beans", "Melted Cheese", "Flour Tortilla", "Red Sauce"],
+    "reviews": [
+      {
+        "user": "Daniel Taylor",
+        "rating": 4,
+        "comment": "Simple but satisfying comfort food"
+      }
+    ]
+  },
+  {
+    "name": "Spicy Chorizo Burrito",
+    "category": "burrito",
+    "description": "Spicy Mexican chorizo with potatoes and eggs",
+    "price": 9.79,
+    "image": "assets/images/burritos/9.png",
+    "isPopular": false,
+    "rating": 4.3,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Spicy Chorizo", "Potatoes", "Eggs", "Onions", "Jalapeños", "Cheese"],
+    "reviews": [
+      {
+        "user": "Ryan Cooper",
+        "rating": 5,
+        "comment": "Perfect spice level for heat lovers!"
+      },
+      {
+        "user": "Olivia Martinez",
+        "rating": 3,
+        "comment": "Too spicy for me, but good if you like heat"
+      }
+    ]
+  },
+  {
+    "name": "Fajita Burrito",
+    "category": "burrito",
+    "description": "Sizzling fajita vegetables and steak wrapped in a tortilla",
+    "price": 10.29,
+    "originalPrice":10.29,
+    "discountPercent":15,
+    "isSpecialOffer":true,
+    "image": "assets/images/burritos/10.png",
+    "isPopular": false,
+    "rating": 4.5,
+    "totalReviews": 2,
+    "available": true,
+    "ingredients": ["Grilled Steak", "Bell Peppers", "Onions", "Fajita Seasoning", "Rice", "Black Beans"],
+    "reviews": [
+      {
+        "user": "Brian Wilson",
+        "rating": 5,
+        "comment": "Tastes just like restaurant fajitas!"
+      },
+      {
+        "user": "Nancy Davis",
+        "rating": 4,
+        "comment": "Great flavor, vegetables were fresh"
+      }
+    ]
+  }
+]
