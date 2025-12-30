@@ -21,7 +21,7 @@ app.use(cors({
 }));
 
 // Handle preflight requests
-app.options('*', cors());
+app.options('/*', cors());
 // ========== END CORS FIX ==========
 
 // Middleware
