@@ -13,10 +13,10 @@ const {
 } = require('../controllers/foodController');
 
 // Public routes
-router.get('/', getAllFoods);
 router.get('/popular', getPopularFoods);
 router.get('/special-offers', getSpecialOffers);
 router.get('/category/:category', getFoodsByCategory);
+router.get('/', getAllFoods);
 router.get('/:id', getFoodById);
 
 // Protected/Admin routes (you can add authentication middleware)
